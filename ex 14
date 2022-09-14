@@ -1,0 +1,5 @@
+            double C, F;
+            Console.Write("Digite a temperatura em Celsius: ");
+            C = double.Parse(Console.ReadLine());
+            F = (9 * C + 160) / 5;
+            Console.WriteLine("A temperatura em Fahrenheit é: ºF {0}. ", F);
